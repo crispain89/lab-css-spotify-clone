@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+:root{
+    --color-fondo:#00B172;
+    --white:#FFF;
+    --text:#1A1A1A;
+}
+body{
+    font-family:arial,sans-serif;
+    size: 2.5em;
+}
+
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width:100%;
+    background-color:white;
+}
+header img{
+    width:200px;
+    height: 50px;
+}
+.container__options{
+    display:flex;
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+   
+  
+    
+}
+.image__landing{
+    display: flex;
+   
+    top: 50px;
+    width: 100%;
+    height: 1200px;
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing__subtitulo{
+    color:white;
+   
+}
+.landing__titulo{
+    color:white;
+    font-size:3.5em;
+    font-weight:bold;
+}
+.icons{
+    padding-top: 30px;
+    width:100%;
+    height:40%;
+}
+#whats{
+    border-bottom: 4px solid var(--color-fondo);
+    width:450px;
+    padding-bottom: 10px;
+}
+.icons p{
+    margin-top:30px;
+    margin-left:40%;
+    font-size:3em;
+    color:black;
+    display:block;
+    border-bottom: px solid var(--color-fondo);
+    font-weight: bold;
+
+}
+.icons__spotify{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+
+}
+.tarjeta{
+    display: flex;
+    width: 33%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tarjeta p{
+    color:rgb(43, 195, 43);
+    text-decoration: none;
+    margin:0;
+}
+.tarjeta span{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size:2em;
+}
+
+.tarjeta img{
+    height:300px;
+    width:300px;
+}
+.info__texto{
+    font-size: 2em;
+    border-bottom: 1px solid var(--white);
+    padding-bottom:10px;
+    width:fit-content;
+}
+.info__music{
+    padding: 10px 200px;
+    display: flex;
+    align-items: center;
+    background-color:var(--color-fondo);
+    justify-content: space-between;
+}
+
+.title{
+    font-weight:bold;
+}
+
+.tabla__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    align-content: space-between;
+    height: 800px;
+}
+.tabla__text p{
+    margin:0%
+}
+.parrafos{
+    max-width: 60%;
+    display: flex;
+    gap: 25px;
+    text-decoration: none;
+    font-weight: none;
+    flex-direction: column;
+}
+.parrafos p{
+    text-decoration: none;
+    font-weight: unset;
+}
+#iconito{
+    width:150px;
+    height: 150px;
+}
+#app{
+    width:500px;
+    height:650px;
+}
+.parrafos p.tittle{
+    font-weight: bold;
+
+}
+.parrafos p{
+    font-size:1.5em;
+}
